@@ -1,4 +1,4 @@
-.outputContainer p{
+.outputContainer p {
   color: white;
   display: flex;
   justify-content: end;
@@ -20,13 +20,31 @@
 
 .row {
   display: flex;
-
 }
 
 .button {
   width: 100%;
+  background: none;
+  color: inherit;
+  border: 0.1em solid #d6c9bf;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  height: 41px;
 }
 
-.zero {
-  width: 200%;
+.row-5 > :nth-last-child(1) {
+  width: 100%;
+}
+
+.row-5 > :nth-last-child(2) {
+  width: 100%;
+}
+
+.row-5 > button {
+  width: 221%;
+}
+
+.row > :nth-last-child(1) {
+  background-color: #f5913e;
 }
