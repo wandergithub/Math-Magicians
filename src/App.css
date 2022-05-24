@@ -17,3 +17,16 @@
   left: 25%;
   top: 25%;
 }
+
+.row {
+  display: flex;
+
+}
+
+.button {
+  width: 100%;
+}
+
+.zero {
+  width: 200%;
+}
