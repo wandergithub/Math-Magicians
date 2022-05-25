@@ -21,14 +21,16 @@ class Calculator extends React.Component {
     const { obj } = this.state;
     const buttonName = event.target.innerHTML;
     const inputObj = calculate(obj, buttonName);
-    console.log(inputObj);
     this.setState({ obj: inputObj });
+    this.render();
   }
 
   render() {
+    const { obj } = this.state;
+    const result = obj.total;
     return (
       <div className="calculatorContainer">
-        <Display />
+        <Display output={result} />
         <div className="buttons-container">
           <div className="row">
             <button onClick={this.handleInput} type="button" className="button">AC</button>
