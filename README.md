@@ -9,17 +9,11 @@
 
 ## App screenshot <img src="https://img.icons8.com/bubbles/344/screenshot.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
-![App ScreenShot](screenshot.png "App screenshot")
+![App ScreenShot](https://github.com/microverseinc/curriculum-react-redux/raw/main/math-magicians/images/calculator.png "App screenshot")
 
 ## Built With <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-build-agile-flaticons-lineal-color-flat-icons.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
 - React            
-
-## Live Demo <img src="https://img.icons8.com/color/344/trial-version.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
-
-
-[Live Demo Link](https://wandergithub.github.io/Leaderboard/)
-
 
 ## Usage  <img src="https://img.icons8.com/external-filled-outline-geotatah/344/external-engine-merger-and-acquisition-filled-outline-filled-outline-geotatah.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
