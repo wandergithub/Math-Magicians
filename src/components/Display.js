@@ -9,9 +9,13 @@ class Display extends React.Component {
 
   render() {
     const { output } = this.props;
+    let toDisplay = '0';
+    if (output !== null && output !== undefined) {
+      toDisplay = output;
+    }
     return (
       <div className="outputContainer">
-        <p>{ output }</p>
+        <p>{ toDisplay }</p>
       </div>
     );
   }
