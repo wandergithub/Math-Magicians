@@ -1,0 +1,31 @@
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin: 20px;
+  box-shadow: 5px 10px 8px 10px #8b7f78a0;
+  border-radius: 10px;
+}
+
+.nav-bar h1 {
+  margin-left: 10px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.link-container > * {
+  text-decoration: none;
+  color: black;
+}
+
+.mid-b {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  padding: 0 5px;
+}

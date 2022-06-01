@@ -19,10 +19,9 @@ const Calculator = () => {
   };
 
   const { obj } = state;
-  const result = obj.total;
   return (
     <div className="calculatorContainer">
-      <Display output={result} />
+      <Display output={obj.total} operation={obj.operation} prev={obj.next} />
       <div className="buttons-container">
         <div className="row">
           <button onClick={handleInput} type="button" className="button">AC</button>
