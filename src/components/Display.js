@@ -8,14 +8,14 @@ class Display extends React.Component {
   }
 
   render() {
-    const { output } = this.props;
-    let toDisplay = '0';
-    if (output !== null && output !== undefined) {
-      toDisplay = output;
-    }
+    const { output, operation, prev } = this.props;
     return (
       <div className="outputContainer">
-        <p>{ toDisplay }</p>
+        <p>
+          { output }
+          { operation }
+          { prev }
+        </p>
       </div>
     );
   }
@@ -23,8 +23,12 @@ class Display extends React.Component {
 
 Display.propTypes = {
   output: PropTypes.string,
+  operation: PropTypes.string,
+  prev: PropTypes.string,
 };
 Display.defaultProps = {
   output: '0',
+  operation: '',
+  prev: '',
 };
 export default Display;
