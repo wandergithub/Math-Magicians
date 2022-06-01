@@ -1,7 +1,7 @@
 import renderer from 'react-test-renderer';
 import { MemoryRouter } from 'react-router-dom';
 import {
-  render, fireEvent, waitFor, screen,
+  render, fireEvent, screen,
 } from '@testing-library/react';
 import Calculator from '../components/Calculator';
 
@@ -20,10 +20,8 @@ describe('Calculator component tests', () => {
   test('User click interaction with calculator buttons', () => {
     render(<Calculator />);
     const display = screen.getByText('00');
-    const button = screen.getByText('8')
-
+    const button = screen.getByText('8');
     fireEvent.click(button);
-
-    expect(display.innerHTML).toBe("8");
+    expect(display.innerHTML).toBe('8');
   });
 });

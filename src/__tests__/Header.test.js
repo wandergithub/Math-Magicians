@@ -1,5 +1,8 @@
 import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
+import {
+  render, fireEvent, screen,
+} from '@testing-library/react';
 import Header from '../components/Header';
 
 describe('Header component tests', () => {
@@ -12,5 +15,14 @@ describe('Header component tests', () => {
       )
       .toJSON();
     expect(tree).toMatchSnapshot();
+  });
+
+  test('User clicks on page link', () => {
+    render(<BrowserRouter><Header /></BrowserRouter>);
+    const quoteLink = screen.getByText(/quote/i);
+    fireEvent.click(quoteLink);
+    const { pathname } = window.location;
+
+    expect(pathname).toBe('/Quote');
   });
 });
