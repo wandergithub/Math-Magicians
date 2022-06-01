@@ -1,9 +1,10 @@
 import Header from './Header';
+import './styles/Quote.css';
 
 const Quote = () => (
   <div>
     <Header />
-    <p>
+    <p className="p">
       Mathematics is not about numbers, equations, computations,
       or algorithms: it is about understanding. -William Paul Thurston
     </p>

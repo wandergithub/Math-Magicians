@@ -12,12 +12,6 @@
   height: 43px;
 }
 
-.calculatorContainer {
-  position: absolute;
-  left: 25%;
-  top: 25%;
-}
-
 .row {
   display: flex;
 }
@@ -47,10 +41,6 @@
 
 .row > :nth-last-child(1) {
   background-color: #f5913e;
-}
-
-body {
-  background-color: rgb(85, 77, 77);
 }
 
 .button:hover {

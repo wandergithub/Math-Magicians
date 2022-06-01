@@ -1,0 +1,9 @@
+.home-container {
+  margin: 30px;
+  margin-top: 50px;
+}
+
+.home-container > p {
+  justify-self: center;
+  width: 50%;
+}
