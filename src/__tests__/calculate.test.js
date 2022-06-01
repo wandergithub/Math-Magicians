@@ -1,4 +1,4 @@
-import calculate from '../logic/calculate.js';
+import calculate from '../logic/calculate';
 
 describe('test calculate basic operations', () => {
   test('Operate = with 10 + 5 resulting on total 15', () => {
@@ -62,5 +62,5 @@ describe('test calculate basic operations', () => {
     expect(result.total).toBe(expectedResult.total);
     expect(result.next).toBe(expectedResult.next);
     expect(result.operation).toBe(expectedResult.operation);
-  });  
+  });
 });

@@ -9,6 +9,7 @@ exports[`Calculator component tests Renders correctly 1`] = `
   >
     <p>
       0
+      0
     </p>
   </div>
   <div

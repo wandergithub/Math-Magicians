@@ -1,14 +1,14 @@
 import renderer from 'react-test-renderer';
 import { MemoryRouter } from 'react-router-dom';
-import Display from '../components/Display'
+import Display from '../components/Display';
 
-describe("Display component tests", () => {
-  it("Renders correctly", () => {
+describe('Display component tests', () => {
+  it('Renders correctly', () => {
     const tree = renderer
       .create(
         <MemoryRouter>
           <Display />
-        </MemoryRouter>
+        </MemoryRouter>,
       )
       .toJSON();
     expect(tree).toMatchSnapshot();
