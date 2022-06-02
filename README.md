@@ -9,12 +9,22 @@
 
 ## App screenshot <img src="https://img.icons8.com/bubbles/344/screenshot.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
-![App ScreenShot](https://github.com/microverseinc/curriculum-react-redux/raw/main/math-magicians/images/calculator.png "App screenshot")
+![App ScreenShot](./app-screenshot.png "App screenshot")
 
 ## Built With <img src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/344/external-build-agile-flaticons-lineal-color-flat-icons.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
 - React 
-- Jest           
+- Jest
+- Heroku
+- Netlify       
+
+## Live Demo <img src="https://img.icons8.com/color/344/trial-version.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
+
+[Heroku](https://wander-math-magicians.herokuapp.com) <img src="https://img.icons8.com/color/344/heroku.png" alt="Bootstrap Icon" style="width: 25px; height: 25px">
+
+
+[Netlify](https://wander-math-magicians.netlify.app)  <img src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/344/external-netlify-a-cloud-computing-company-that-offers-hosting-and-serverless-backend-services-for-static-websites-logo-shadow-tal-revivo.png" alt="Bootstrap Icon" style="width: 25px; height: 25px">
+
 
 ## Usage  <img src="https://img.icons8.com/external-filled-outline-geotatah/344/external-engine-merger-and-acquisition-filled-outline-filled-outline-geotatah.png" alt="Bootstrap Icon" style="width: 50px; height: 50px">
 
